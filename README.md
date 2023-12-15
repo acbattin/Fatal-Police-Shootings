@@ -21,6 +21,6 @@ The number of people killed by firearms by the police January 1, 2015, to Decemb
 
 **Figure 2.** Age Distribution across Racial Groups. Goal is to compare the age distributions across racial groups and if anything can be determined or suggested.
 <p align="center">
-<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AgeRaceBox.png?raw=true" width="700" height="500"/>
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AgeRaceBox.png?raw=true" width="800" height="500"/>
 </p> 
 
