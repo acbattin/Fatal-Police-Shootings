@@ -9,6 +9,7 @@ Explore fatal police shootings in the United States using the Washington Post's 
 * Forecasting 
 
 # Goals
-* 
+*  
 
 # Visualizations
+
