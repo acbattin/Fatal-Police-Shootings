@@ -23,4 +23,9 @@ The number of people killed by firearms by the police January 1, 2015, to Decemb
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AgeRaceBox.png?raw=true" width="800" height="500"/>
 </p> 
+Figure 2. demonstrates clustering the reported fatal police victims by race and displaying the distribution of age across these racial groups. The only racial group with a median and mean age higher than that of the data’s overall average is the white race. There is only one observation for the racial group “Black and Hispanic” but after this, “Black” people are victimized by police officers at younger ages more often than the other racial groups, including “Other” or non-identified persons. This result brings merit to the proposed legislation regarding hate-crime legislation and racial awareness, framed as officer- improvement.
 
+**Figure 3.** Age distribution and threat-type
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/ThreatPlot.png?raw=true" width="800" height="500"/>
+</p> 
