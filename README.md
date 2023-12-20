@@ -1,7 +1,7 @@
 # Fatal-Police-Shootings
 Explore fatal police shootings in the United States using the Washington Post's Fatal Force Database.
 * Code Author: Andie Battin
-* Last Updated: December 14, 2023
+* Last Updated: December 20, 2023
 
 # Methods
 * Download the Fatal Force data from Git and read into RStudio
@@ -9,9 +9,18 @@ Explore fatal police shootings in the United States using the Washington Post's 
 * Forecasting 
 
 # Goals
-*  
+* Explore the data and write R code to generate visualizations
+* Import U.S. Census data to account for differences in population across states
+* Summarize findings, provide recommendations
 
 # Visualizations
+**Table 1.** Flee-Status Table.
+I used R to manipulate the data and compute the distribution of deaths by the victims flee status between racial identities. The racial groups are mapped to this table and ordered in descending order by the variable level “Not”, meaning that these people were shot and killed by a police officer and there was no attempt made by that person prior to the incident to evade the police.
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/FleeTable.png?raw=true" width="400" height="200"/>
+</p>
+The reason I wanted to make sure to conduct and shape my analysis in this way is because there has been a lot of media attention surrounding the ongoing cases and trials involving officer shootings. In these cases, the defense must prove that it was in the best interest in keeping the peace, for that officer to shoot and kill the victim or that there was no other option available. The results of this analysis are troublesome, given that out of the seven racial groups identified in Table 1 there are four racial groups in which more than half of the people are not fleeing yet are being shot and killed by police officers. Asian victims of police shootings lead the racial groups in terms of having the highest distribution of victims that did not flee.
+
 **Figure 1.** Stacked Bar Chart. The goal of this plot is to visualize the disparity among the racial groups in addition to explore the distribution of gender within each racial group.
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/GenderStacked.png?raw=true" width="600" height="500"/>
