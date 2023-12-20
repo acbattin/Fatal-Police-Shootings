@@ -39,4 +39,9 @@ Figure 2. demonstrates clustering the reported fatal police victims by race and 
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/ThreatPlot.png?raw=true" width="800" height="500"/>
 </p> 
 I generated clusters largely based on the category assessment , Figure 3, shows the distribution of age group and threat levels. As presented in Figure 3, the frequency of victims of a select age group vary across the reported “threat type”. The shape of the data provides insight into the distribution of victims’ age for the perceived threat posed by the victim. The age group of civilians under 18 years old are most frequently killed by accident and very rarely killed because they pose a threat or are attempting to flee the scene. The data for victims reported shot and killed by police by accident are skewed to the left which indicates the younger age groups overrepresentation.
+
+**Figure 4.** Aggregate annual police fatal shootings in the U.S. since January 1, 2015 as of December 1, 2023.
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AnnualCounts.png?raw=true" width="800" height="500"/>
+</p>
  
