@@ -52,5 +52,10 @@ I used clustering to generate a proper vertical bar plot to visualize the total 
 </p>
 Figure 5 is a time-series plot that shows the aggregate total number of fatal police shootings on a monthly basis from January 2015 to December 1, 2023. The lack of data entries for December 2023 is the reason it appears as though there has been a down-trend in fatal police shootings in the U.S., but this is simply because there is only data for December 1, 2023. There is no apparent trend or seasonality present with the fatal officer shooting data as demonstrated by Figure 5.
 
+**Figure 6.** Forecasting Crime Data: ARIMA Model
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/ARIMAplot.png?raw=true" width="800" height="500"/>
+</p>
+The following plot uses an ARIMA model to forecast the total number of fatal police shootings in the United States next month, January 2024. The model generated a prediction for the total number of police shootings for next month, displayed as a blue bar filled from the minimum to maximum predicted number of fatal police shootings in the United States with the predicted value. The model used the data for fatal shootings from January 2015 to December 1, 2023, and using this, the forecasted total number of fatal police shootings for January 2024 is approximately 84 fatal police shootings, with a 95% prediction interval of (57.63, 111.27).
 
  
