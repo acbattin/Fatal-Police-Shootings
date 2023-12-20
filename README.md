@@ -63,5 +63,11 @@ The following plot uses an ARIMA model to forecast the total number of fatal pol
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/PoissonFitOutput.png?raw=true" width="800" height="400"/>
 </p>
-When checking to see if the data is Poisson distributed, we first check the fit of the Poisson distribution for annual data and find that the mean and variance are not close enough, the mean is reported as 1011.778 fatal shootings annually and the variance is 1638.44 fatal shootings annually. After manipulating the date variable in the data, I was able to use grouping to sum the number of incidents for each day in the United States. Using R, I checked the fit for the day-level data and found the mean and variance to be very close, mean is 2.8 and variance is 2.9 the unit is fatal police shootings in the U.S. daily, not on an annual basis like we saw previously which was overdispersed as demonstrated by the variance being a higher value than the mean. The Chi- squared goodness of fit test for the day count data was run to confirm the accuracy of what was previously presented in the Poisson fit table, that the p-value is 0.038.
+When checking to see if the data is Poisson distributed, we first check the fit of the Poisson distribution for annual data and find that the mean and variance are not close enough, the mean is reported as 1011.778 fatal shootings annually and the variance is 1638.44 fatal shootings annually. After manipulating the date variable in the data, I was able to use grouping to sum the number of incidents for each day in the United States. Using R, I checked the fit for the day-level data and found the mean and variance to be very close, mean is 2.8 and variance is 2.9 the unit is fatal police shootings in the U.S. daily, not on an annual basis like we saw previously which was overdispersed as demonstrated by the variance being a higher value than the mean.
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/ChiS.png?raw=true" width="400" height="100"/>
+</p>
+The Chi- squared goodness of fit test for the day count data was run to confirm the accuracy of what was previously presented in the Poisson fit table, that the p-value is 0.038.
+
+
  
