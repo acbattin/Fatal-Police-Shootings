@@ -70,5 +70,7 @@ When checking to see if the data is Poisson distributed, we first check the fit 
 </p>
 The Chi- squared goodness of fit test for the day count data was run to confirm the accuracy of what was previously presented in the Poisson fit table, that the p-value is 0.038.
 
+# Concluding Remarks
+Keeping in mind that all of the data is for on-duty, specifically, is very troublesome because the analysis of fatal police shootings in the U.S. since January 1, 2023, show that the proportion of officers involved wearing a camera is less than 20% of all of the officers. Body camera footage plays a significant role in determining whether charges are filed against the officer that discharged their weapon, and if it is available, it is often used in court to determine the justification for the shooting, and in order to promote an atmosphere of accountability, there should be more stringent requirements placed on law enforcement officers so that they are more often than not, wearing a body camera in case something was to happen.
 
- 
+The powerful solutions of our analysis may hold a future implication on police training and may justify national agencies that already collect firearm data such as the CDC and the FBI to expand the required data collected from local police departments to include information regarding fatal officer shootings in their annual violence and firearm-reports.
