@@ -52,10 +52,16 @@ I used clustering to generate a proper vertical bar plot to visualize the total 
 </p>
 Figure 5 is a time-series plot that shows the aggregate total number of fatal police shootings on a monthly basis from January 2015 to December 1, 2023. The lack of data entries for December 2023 is the reason it appears as though there has been a down-trend in fatal police shootings in the U.S., but this is simply because there is only data for December 1, 2023. There is no apparent trend or seasonality present with the fatal officer shooting data as demonstrated by Figure 5.
 
+# Models
 **Figure 6.** Forecasting Crime Data: ARIMA Model
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/ARIMAplot.png?raw=true" width="800" height="500"/>
 </p>
 The following plot uses an ARIMA model to forecast the total number of fatal police shootings in the United States next month, January 2024. The model generated a prediction for the total number of police shootings for next month, displayed as a blue bar filled from the minimum to maximum predicted number of fatal police shootings in the United States with the predicted value. The model used the data for fatal shootings from January 2015 to December 1, 2023, and using this, the forecasted total number of fatal police shootings for January 2024 is approximately 84 fatal police shootings, with a 95% prediction interval of (57.63, 111.27).
 
+**Figure 7.** ptools in R: Checking Poisson Distribution
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/PoissonFitOutput.png?raw=true" width="800" height="500"/>
+</p>
+When checking to see if the data is Poisson distributed, we first check the fit of the Poisson distribution for annual data and find that the mean and variance are not close enough, the mean is reported as 1011.778 fatal shootings annually and the variance is 1638.44 fatal shootings annually. After manipulating the date variable in the data, I was able to use grouping to sum the number of incidents for each day in the United States. Using R, I checked the fit for the day-level data and found the mean and variance to be very close, mean is 2.8 and variance is 2.9 the unit is fatal police shootings in the U.S. daily, not on an annual basis like we saw previously which was overdispersed as demonstrated by the variance being a higher value than the mean. The Chi- squared goodness of fit test for the day count data was run to confirm the accuracy of what was previously presented in the Poisson fit table, that the p-value is 0.038.
  
