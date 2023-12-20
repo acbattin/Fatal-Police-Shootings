@@ -32,7 +32,7 @@ The number of people killed by firearms by the police January 1, 2015, to Decemb
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AgeRaceBox.png?raw=true" width="800" height="500"/>
 </p> 
-Figure 2. demonstrates clustering the reported fatal police victims by race and displaying the distribution of age across these racial groups. The only racial group with a median and mean age higher than that of the data’s overall average is the white race. There is only one observation for the racial group “Black and Hispanic” but after this, “Black” people are victimized by police officers at younger ages more often than the other racial groups, including “Other” or non-identified persons. This result brings merit to the proposed legislation regarding hate-crime legislation and racial awareness, framed as officer- improvement.
+Figure 2 demonstrates clustering the reported fatal police victims by race and displaying the distribution of age across these racial groups. The only racial group with a median and mean age higher than that of the data’s overall average is the white race. There is only one observation for the racial group “Black and Hispanic” but after this, “Black” people are victimized by police officers at younger ages more often than the other racial groups, including “Other” or non-identified persons. This result brings merit to the proposed legislation regarding hate-crime legislation and racial awareness, framed as officer- improvement.
 
 **Figure 3.** Age distribution and threat-type
 <p align="center">
@@ -44,4 +44,13 @@ I generated clusters largely based on the category assessment , Figure 3, shows 
 <p align="center">
 <img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/AnnualCounts.png?raw=true" width="800" height="500"/>
 </p>
+I used clustering to generate a proper vertical bar plot to visualize the total annual counts for all the fatal police shootings in the United States from January 1, 2015, to December 1, 2023. As demonstrated by the plot, the average annual count of fatal police shootings has been above 1,000 incidents since it first crossed that threshold in 2020. Trends in crime are difficult to curb because determining their underlying factor is time and money-consuming and it is difficult to change a constant trend like this.
+
+**Figure 5.** Time series analysis
+<p align="center">
+<img src="https://github.com/acbattin/Fatal-Police-Shootings/blob/main/MonthlyCounts.png?raw=true" width="800" height="500"/>
+</p>
+Figure 5 is a time-series plot that shows the aggregate total number of fatal police shootings on a monthly basis from January 2015 to December 1, 2023. The lack of data entries for December 2023 is the reason it appears as though there has been a down-trend in fatal police shootings in the U.S., but this is simply because there is only data for December 1, 2023. There is no apparent trend or seasonality present with the fatal officer shooting data as demonstrated by Figure 5.
+
+
  
