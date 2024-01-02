@@ -6,11 +6,11 @@ Explore fatal police shootings in the United States using the Washington Post's 
 # Methods
 * Download the Fatal Force data from Git and read into RStudio
 * Explore the data and generate visualizations
-* Forecasting 
+* Forecasting, Poisson distribution, ARIMA modeling
 
 # Goals
-* Explore the data and write R code to generate visualizations
-* Import U.S. Census data to account for differences in population across states
+* Explore the Washington Post's Fatal Force data and using RStudio, write R code to generate visualizations that abide by proper guidelines.
+* Import U.S. Census data to account for differences in population across states. 
 * Summarize findings, provide recommendations
 
 # Visualizations
